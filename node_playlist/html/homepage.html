@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="homepage.css">
+		<script type="text/javascript" src="playlistLoader.js"></script>
+		<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+		<title>Playlist</title>
+	</head>
+	<body>
+		<div id="mainBox">Playlista na żywo.<br /><br />Projekt pozwala na odtwarzanie utworów z serwisu YouTube za pomocą playlisty.<br />W odróżnieniu od zwykłej playlisty, tutaj możliwe jest dodawanie utworów na bieżąco<br />bez konieczności przerywania odtwarzania. Nie trzeba również zakładać konta.<br /><br />Z uwagi na ograniczenia systemowe urządzeń mobilnych, projekt nie działa na telefonach komórkowych.<br /><br />Aby rozpocząć należy:<br />1. wkleić link do filmu z serwisu YouTube w pole tekstowe<br />2. wcisnąć "Dodaj film"<br />3. rozpocząć odtwarzanie od dowolnego elementu z listy</div>
+		<div id="player"></div>
+		<div id="playlistBox">
+			<input type="text" id="linkBox"></input>
+			<button onclick="addBlock()">Dodaj film</button><br />
+			Rozpocznij odtwarzanie od dowolnego elementu listy.
+		</div>
+	</body>
+</html>
